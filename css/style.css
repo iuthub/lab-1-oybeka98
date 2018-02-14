@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Simpsonfont;
+    src: url("../fonts/Simpsonfont.otf") format("opentype");
+}
+body
+{
+	font-family: Simpsonfont;
+	background-color: #91d4f7;
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-y;
+    background-size: contain;
+    width: 76%;
+    margin: 0 auto;
+}
+#mainbody
+{
+
+}
+#mainheader
+{
+	color: #ed3232;
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+}
+#header
+{
+	color: #fffb00;
+	font-size: 16pt;
+	font-weight: bold;
+}
+#moodImageBlock > div
+{
+float: left;	
+}
+#moodImageBlock > div>p
+{
+text-align: center;
+}
+.breakline
+{
+	clear: both;
+}
